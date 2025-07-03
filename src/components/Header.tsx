@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, MessageCircle, Star } from 'lucide-react';
+import logo from "../assets/imgs/Design sem nome.svg"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,10 +50,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-rose-600 rounded-full flex items-center justify-center">
-                <Star className="w-5 h-5 text-white fill-current" />
-              </div>
-              <span className="text-xl font-bold text-gray-900">HarmoniaBela</span>
+             <img src={logo} alt="" />
             </div>
 
             {/* Menu Desktop */}
