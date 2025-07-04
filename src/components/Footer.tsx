@@ -13,6 +13,7 @@ import {
 import logofooter from "../assets/imgs/DentalSant-_Horizontal_Negativa-300x89-1.webp";
 import { FaWhatsapp } from "react-icons/fa";
 
+
 const Footer = () => {
   return (
     <footer id="contato" className="bg-gray-900 text-white">
