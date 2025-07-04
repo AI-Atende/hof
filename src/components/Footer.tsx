@@ -1,5 +1,17 @@
-import React from 'react';
-import { Phone, MessageCircle, Mail, MapPin, Instagram, Facebook, Star, Clock, Shield, Award } from 'lucide-react';
+import React from "react";
+import {
+  Phone,
+  MessageCircle,
+  Mail,
+  MapPin,
+  Instagram,
+  Facebook,
+  Clock,
+  Shield,
+  Award,
+} from "lucide-react";
+import logofooter from "../assets/imgs/DentalSant-_Horizontal_Negativa-300x89-1.webp";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,16 +22,14 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-rose-600 rounded-full flex items-center justify-center">
-                <Star className="w-5 h-5 text-white fill-current" />
-              </div>
-              <span className="text-2xl font-bold">HarmoniaBela</span>
+              <img src={logofooter} alt="" />
             </div>
             <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-              Especialistas em harmonização orofacial, dedicados a realçar sua beleza natural 
-              com segurança, tecnologia de ponta e resultados que transformam vidas.
+              Especialistas em harmonização orofacial, dedicados a realçar sua
+              beleza natural com segurança, tecnologia de ponta e resultados que
+              transformam vidas.
             </p>
-            
+
             {/* Trust Badges */}
             <div className="flex flex-wrap gap-4 mb-6">
               <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-full">
@@ -39,14 +49,16 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/dental_sante/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-rose-600 transition-colors"
+                target="_blank"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/dentalsanteodontologia"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                target="_blank"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -58,14 +70,14 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Contato</h3>
             <div className="space-y-4">
               <a
-                href="tel:+5511999999999"
+                href="tel:+558130940025"
                 className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
               >
                 <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center group-hover:bg-rose-600 transition-colors">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="font-medium">(11) 99999-9999</div>
+                  <div className="font-medium">(81)93094-0025</div>
                   <div className="text-sm text-gray-400">Ligue agora</div>
                 </div>
               </a>
@@ -77,11 +89,13 @@ const Footer = () => {
                 className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
               >
                 <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center group-hover:bg-green-600 transition-colors">
-                  <MessageCircle className="w-5 h-5" />
+                  <FaWhatsapp className="w-5 h-5" />
                 </div>
                 <div>
                   <div className="font-medium">WhatsApp</div>
-                  <div className="text-sm text-gray-400">Atendimento rápido</div>
+                  <div className="text-sm text-gray-400">
+                    Atendimento rápido
+                  </div>
                 </div>
               </a>
 
@@ -109,9 +123,13 @@ const Footer = () => {
                   <MapPin className="w-5 h-5 text-rose-400" />
                 </div>
                 <div>
-                  <div className="font-medium">Rua da Beleza, 123</div>
-                  <div className="text-gray-400">Jardins - São Paulo/SP</div>
-                  <div className="text-gray-400">CEP: 01234-567</div>
+                  <div className="font-medium">
+                    Av. Bernardo Vieira de Melo, 2418
+                  </div>
+                  <div className="text-gray-400">
+                    Piedade, Jaboatão dos Guararapes - PE
+                  </div>
+                  <div className="text-gray-400">CEP: 54410-010</div>
                 </div>
               </div>
 
@@ -122,7 +140,7 @@ const Footer = () => {
                 <div>
                   <div className="font-medium">Horário de Atendimento</div>
                   <div className="text-gray-400">Seg-Sex: 8h às 18h</div>
-                  <div className="text-gray-400">Sáb: 8h às 14h</div>
+                  <div className="text-gray-400">Sáb: 8h às 12h</div>
                 </div>
               </div>
             </div>
@@ -130,35 +148,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="bg-gradient-to-r from-rose-600 to-rose-700 py-12">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Ainda com Dúvidas? Fale Conosco Agora!
-          </h3>
-          <p className="text-rose-100 mb-6 text-lg">
-            Nossa equipe está pronta para atender você e esclarecer todas as suas dúvidas
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/5511999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-rose-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2"
-            >
-              <MessageCircle className="w-5 h-5" />
-              <span>Fale no WhatsApp</span>
-            </a>
-            <a
-              href="tel:+5511999999999"
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-rose-600 transition-colors inline-flex items-center justify-center gap-2"
-            >
-              <Phone className="w-5 h-5" />
-              <span>Ligue Agora</span>
-            </a>
-          </div>
-        </div>
-      </div>
+   
 
       {/* Bottom Bar */}
       <div className="bg-gray-800 py-6">
@@ -168,10 +158,16 @@ const Footer = () => {
               © 2024 HarmoniaBela. Todos os direitos reservados.
             </div>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 Política de Privacidade
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 Termos de Uso
               </a>
             </div>
