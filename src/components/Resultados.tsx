@@ -1,40 +1,29 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
+import caso01antes from "../assets/imgs/hof01antes.webp"
+import caso01dps from "../assets/imgs/hof01dps.webp"
+import caso02antes from "../assets/imgs/caso02antes.webp"
+import caso02dps from "../assets/imgs/caso02sps.webp"
+import caso03antes from "../assets/imgs/caso03antes.webp"
+import caso03dps from "../assets/imgs/caso03dps.webp"
 
 const Resultados = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const resultados = [
     {
-      antes: "Antes do procedimento",
-      depois: "Após harmonização",
-      titulo: "Suavização de Rugas",
-      descricao: "Redução natural das linhas de expressão"
+      antes: caso01antes,
+      depois: caso01dps,
     },
     {
-      antes: "Antes do procedimento",
-      depois: "Após harmonização",
-      titulo: "Contorno Facial Definido",
-      descricao: "Realce da estrutura facial natural"
+      antes: caso02antes,
+      depois: caso02dps,
+     
     },
     {
-      antes: "Antes do procedimento",
-      depois: "Após harmonização",
-      titulo: "Lábios Mais Volumosos",
-      descricao: "Aumento sutil e natural do volume labial"
+      antes: caso03antes,
+      depois: caso03dps,
     },
-    {
-      antes: "Antes do procedimento",
-      depois: "Após harmonização",
-      titulo: "Rejuvenescimento Facial",
-      descricao: "Aparência mais jovem e radiante"
-    },
-    {
-      antes: "Antes do procedimento",
-      depois: "Após harmonização",
-      titulo: "Harmonização Completa",
-      descricao: "Equilíbrio perfeito entre todos os elementos faciais"
-    }
   ];
 
   const nextSlide = () => {
@@ -76,10 +65,9 @@ const Resultados = () => {
                     </span>
                   </div>
                   <div className="aspect-[3/4] bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-4"></div>
-                      <p className="text-gray-600">{resultados[currentSlide].antes}</p>
-                    </div>
+                   
+                      <img src={resultados[currentSlide].antes} alt=""  className="w-full h-full object-cover rounded-lg"/>
+                    
                   </div>
                 </div>
 
@@ -90,13 +78,10 @@ const Resultados = () => {
                       DEPOIS
                     </span>
                   </div>
-                  <div className="aspect-[3/4] bg-gradient-to-br from-rose-200 to-rose-300 rounded-2xl flex items-center justify-center relative">
-                    <div className="text-center">
-                      <div className="w-16 h-16 bg-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <Star className="w-8 h-8 text-white fill-current" />
-                      </div>
-                      <p className="text-rose-700 font-medium">{resultados[currentSlide].depois}</p>
-                    </div>
+                  <div className="aspect-[3/4] w-full bg-gradient-to-br from-rose-200 to-rose-300 rounded-2xl flex items-center justify-center relative">
+                    
+                      <img src={resultados[currentSlide].depois} alt=""  className="w-full h-full object-cover rounded-lg"/>
+                    
                     <div className="absolute -top-2 -right-2 bg-gold-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
                       ✨ Resultado
                     </div>
@@ -105,14 +90,7 @@ const Resultados = () => {
               </div>
 
               {/* Descrição */}
-              <div className="text-center mt-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  {resultados[currentSlide].titulo}
-                </h3>
-                <p className="text-gray-600 text-lg">
-                  {resultados[currentSlide].descricao}
-                </p>
-              </div>
+             
             </div>
           </div>
 

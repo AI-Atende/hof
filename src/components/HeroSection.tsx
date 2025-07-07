@@ -80,14 +80,14 @@ const HeroSection = () => {
 
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button
-                onClick={() => scrollToSection("como-funciona")}
-                className="bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-rose-600 hover:to-rose-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center gap-2"
+              <a href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
+              target="_blank"
               >
-                Quero Minha Avaliação Gratuita!
-                <ArrowRight className="w-5 h-5" />
-              </button>
-
+                <button className="bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-rose-600 hover:to-rose-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                  Quero Minha Avaliação Gratuita!
+                  <ArrowRight className="w-5 h-5" />
+                </button>
+              </a>
               <button
                 onClick={() => scrollToSection("resultados")}
                 className="border-2 border-rose-500 text-rose-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-rose-50 transition-all duration-300 flex items-center justify-center gap-2"
@@ -106,14 +106,12 @@ const HeroSection = () => {
           <div className="relative animate-fade-in">
             <div className="relative bg-gradient-to-br from-rose-100 to-gold-100 rounded-3xl p-8 shadow-2xl">
               {/* Placeholder for main image */}
-              <img src={ft} alt="" className="object-cover"/>
-              
-                <div className="text-center ">
+              <img src={ft} alt="" className="object-cover" />
 
-                  <p className="text-rose-700 font-medium">
-                    Sua transformação começa aqui
-                  </p>
-               
+              <div className="text-center ">
+                <p className="text-rose-700 font-medium">
+                  Sua transformação começa aqui
+                </p>
               </div>
 
               {/* Floating elements */}
