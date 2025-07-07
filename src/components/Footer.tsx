@@ -84,7 +84,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://wa.me/5511999999999"
+                href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
@@ -108,7 +108,7 @@ const Footer = () => {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="font-medium">contato@harmoniabela.com</div>
+                  <div className="font-medium">contato@dentalsante.com.br</div>
                   <div className="text-sm text-gray-400">E-mail</div>
                 </div>
               </a>
@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © 2024 HarmoniaBela. Todos os direitos reservados.
+              © 2025 Clínica Odontológica Dental Santé.
             </div>
             <div className="flex gap-6 text-sm">
               <a

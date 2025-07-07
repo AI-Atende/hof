@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <>
       {/* Banner de Oferta */}
-      <div className="bg-gradient-to-r from-rose-600 to-rose-500 text-white py-3 text-center relative overflow-hidden">
+      <div className=" bg-gradient-to-r from-rose-600 to-rose-500 text-white py-3 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12"></div>
         <div className="relative z-10">
           <div className="flex items-center justify-center gap-2 text-sm md:text-base font-medium">
@@ -39,7 +39,7 @@ const Header = () => {
 
       {/* Header Principal */}
       <header
-        className={`fixed w-full z-40 transition-all duration-300 ${
+        className={`w-full z-40 transition-all duration-300 ${
           isScrolled ? "bg-white shadow-lg" : "bg-white/95 backdrop-blur-md"
         }`}
       >

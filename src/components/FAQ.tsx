@@ -106,7 +106,7 @@ const FAQ = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors inline-flex items-center justify-center gap-2"
@@ -114,7 +114,7 @@ const FAQ = () => {
                 <span>Fale Conosco no WhatsApp</span>
               </a>
               <a
-                href="tel:+5511999999999"
+                href="tel:+558130940025"
                 className="border-2 border-rose-500 text-rose-600 px-6 py-3 rounded-full font-semibold hover:bg-rose-50 transition-colors inline-flex items-center justify-center gap-2"
               >
                 <span>Ligue Agora</span>
