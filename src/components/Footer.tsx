@@ -78,7 +78,7 @@ const Footer = () => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="font-medium">(81)93094-0025</div>
+                  <div className="font-medium">(81)3094-0025</div>
                   <div className="text-sm text-gray-400">Ligue agora</div>
                 </div>
               </a>
