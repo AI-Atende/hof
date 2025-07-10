@@ -6,7 +6,10 @@ import caso02antes from "../assets/imgs/caso02antes.webp"
 import caso02dps from "../assets/imgs/caso02sps.webp"
 import caso03antes from "../assets/imgs/caso03antes.webp"
 import caso03dps from "../assets/imgs/caso03dps.webp"
-
+import caso04antes from "../assets/imgs/caso04anteshof.webp"
+import caso04dps from "../assets/imgs/caso04dps.webp"
+import caso05antes from "../assets/imgs/caso06antes.webp"
+import caso05dps from "../assets/imgs/caso06dps.webp"
 const Resultados = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
@@ -23,6 +26,14 @@ const Resultados = () => {
     {
       antes: caso03antes,
       depois: caso03dps,
+    },
+    {
+      antes: caso04antes,
+      depois: caso04dps,
+    },
+    {
+      antes: caso05antes,
+      depois: caso05dps,
     },
   ];
 

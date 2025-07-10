@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-full">
                 <Clock className="w-4 h-4 text-rose-400" />
-                <span className="text-sm">5+ Anos de Experiência</span>
+                <span className="text-sm">+13 Anos de Experiência</span>
               </div>
             </div>
 

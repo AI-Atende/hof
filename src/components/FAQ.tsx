@@ -26,10 +26,6 @@ const FAQ = () => {
       answer: "Sim, na maioria dos casos é possível retomar as atividades normais no mesmo dia. Fornecemos orientações específicas de cuidados pós-procedimento, como evitar exercícios intensos nas primeiras 24 horas e seguir as recomendações de aplicação de gelo."
     },
     {
-      question: "Vocês aceitam convênio médico?",
-      answer: "Não trabalhamos com convênios médicos, pois a harmonização orofacial é considerada um procedimento estético. Porém, oferecemos diversas opções de pagamento flexíveis, incluindo parcelamento e condições especiais. Consulte-nos para conhecer as opções disponíveis!"
-    },
-    {
       question: "Como escolher o profissional ideal?",
       answer: "É fundamental escolher um profissional especializado em harmonização orofacial, com formação específica e experiência comprovada. Verifique certificações, antes e depois de outros pacientes, e se sinta confortável durante a consulta. Nossa equipe possui todas as qualificações necessárias."
     }

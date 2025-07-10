@@ -90,16 +90,13 @@ const ComoFunciona = () => {
 
               {/* Video Placeholder */}
               <div className="relative aspect-video bg-gradient-to-br from-rose-200 to-rose-300 rounded-2xl flex items-center justify-center group cursor-pointer hover:from-rose-300 hover:to-rose-400 transition-all">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:scale-110 transition-transform">
-                    <Play className="w-8 h-8 text-rose-500 ml-1" />
-                  </div>
-                  <p className="text-rose-700 font-medium">
-                    Clique para assistir
-                  </p>
-                  <p className="text-rose-600 text-sm mt-1">
-                    Duração: 2 minutos
-                  </p>
+                <div className="text-center w-full">
+                  <iframe
+                    className="rounded-lg w-full h-[315px]"
+                    src="https://www.youtube.com/embed/7oaCJcbB6L8?si=Cl1hzvyJP1EonQYl"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  ></iframe>
                 </div>
               </div>
 

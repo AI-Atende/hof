@@ -86,20 +86,20 @@ const Diferenciais = () => {
         <div className="bg-gradient-to-r from-rose-500 to-rose-600 rounded-3xl p-8 text-white mb-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">1000+</div>
-              <div className="text-rose-100">Pacientes Atendidos</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">+ 21.348</div>
+              <div className="text-rose-100">VIDAS TRANSFORMADAS</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">98%</div>
-              <div className="text-rose-100">Satisfação</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">+ 83.453</div>
+              <div className="text-rose-100">TRATAMENTOS REALIZADOS</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">5+</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">+13</div>
               <div className="text-rose-100">Anos de Experiência</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">24/7</div>
-              <div className="text-rose-100">Suporte</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">+ 7</div>
+              <div className="text-rose-100">Prêmios</div>
             </div>
           </div>
         </div>
