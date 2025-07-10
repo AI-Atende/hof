@@ -8,28 +8,28 @@ const Diferenciais = () => {
       title: "Profissionais Especializados",
       description:
         "Equipe altamente qualificada e em constante atualização nas mais avançadas técnicas de harmonização orofacial.",
-      highlight: "Certificações internacionais",
+      highlight: "",
     },
     {
       icon: Zap,
       title: "Tecnologia de Ponta",
       description:
         "Utilizamos equipamentos de última geração e produtos de alta qualidade, garantindo segurança e resultados superiores.",
-      highlight: "Equipamentos importados",
+      highlight: "",
     },
     {
       icon: Heart,
       title: "Atendimento Humanizado",
       description:
         "Cuidado personalizado e atenção a cada detalhe, desde a primeira consulta até o pós-procedimento.",
-      highlight: "Suporte 24/7",
+      highlight: "",
     },
     {
       icon: Award,
       title: "Resultados Naturais e Duradouros",
       description:
         "Nosso foco é realçar sua beleza de forma sutil e elegante, com harmonia e longevidade.",
-      highlight: "Garantia de satisfação",
+      highlight: "",
     },
   ];
 
@@ -75,7 +75,7 @@ const Diferenciais = () => {
               </p>
 
               <div className="flex items-center gap-2 text-sm text-rose-600 font-medium">
-                <div className="w-2 h-2 bg-rose-500 rounded-full"></div>
+                
                 <span>{diferencial.highlight}</span>
               </div>
             </div>

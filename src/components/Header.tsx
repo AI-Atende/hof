@@ -91,7 +91,7 @@ const Header = () => {
                 className="flex items-center gap-2 text-gray-700 hover:text-rose-600 transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">(81)93094-0025</span>
+                <span className="text-sm">(81) 3094-0025</span>
               </a>
               <a
                 href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
@@ -155,14 +155,14 @@ const Header = () => {
                 </button>
                 <div className="flex flex-col gap-3 pt-4 border-t">
                   <a
-                    href="tel:+5511999999999"
+                    href="tel:+5581930940025"
                     className="flex items-center gap-2 text-gray-700 hover:text-rose-600 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    <span>(11) 99999-9999</span>
+                    <span>(81) 3094-0025</span>
                   </a>
                   <a
-                    href="https://wa.me/5511999999999"
+                    href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 text-white px-4 py-2 rounded-full flex items-center gap-2 hover:bg-green-600 transition-colors w-fit"

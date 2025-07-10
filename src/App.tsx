@@ -6,7 +6,7 @@ import Resultados from './components/Resultados';
 import Diferenciais from './components/Diferenciais';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-
+import Depoimentos from "./components/Depoimentos";
 function App() {
   return (
     <div className="font-inter">
@@ -16,6 +16,7 @@ function App() {
         <ComoFunciona />
         <Resultados />
         <Diferenciais />
+        <Depoimentos/>
         <FAQ />
       </main>
       <Footer />
