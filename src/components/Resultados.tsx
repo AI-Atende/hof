@@ -4,10 +4,6 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 //antes e dps
 import caso01antes from "../assets/imgs/hof01antes.webp";
 import caso01dps from "../assets/imgs/hof01dps.webp";
-import caso02antes from "../assets/imgs/caso02antes.webp";
-import caso02dps from "../assets/imgs/caso02sps.webp";
-import caso03antes from "../assets/imgs/caso03antes.webp";
-import caso03dps from "../assets/imgs/caso03dps.webp";
 import caso04antes from "../assets/imgs/caso04anteshof.webp";
 import caso04dps from "../assets/imgs/caso04dps.webp";
 import caso05antes from "../assets/imgs/caso05antes.webp";
@@ -28,14 +24,6 @@ const Resultados = () => {
     {
       antes: caso01antes,
       depois: caso01dps,
-    },
-    {
-      antes: caso02antes,
-      depois: caso02dps,
-    },
-    {
-      antes: caso03antes,
-      depois: caso03dps,
     },
     {
       antes: caso04antes,
