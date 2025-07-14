@@ -8,16 +8,15 @@ import caso02antes from "../assets/imgs/caso02antes.webp";
 import caso02dps from "../assets/imgs/caso02dps.webp";
 import caso04antes from "../assets/imgs/caso04anteshof.webp";
 import caso04dps from "../assets/imgs/caso04dps.webp";
-import caso05antes from "../assets/imgs/caso05antes.webp";
-import caso05dps from "../assets/imgs/caso05dps.webp";
-import caso06antes from "../assets/imgs/caso06antes.webp";
-import caso06dps from "../assets/imgs/caso06dps.webp";
-import caso07antes from "../assets/imgs/caso07antes.webp";
-import caso07dps from "../assets/imgs/caso07dps.webp";
+import caso05antes from "../assets/imgs/caso03antes.png";
+import caso05dps from "../assets/imgs/caso03dps.png";
+import caso06antes from "../assets/imgs/caso10antes.png";
+import caso06dps from "../assets/imgs/caso10dps.png";
+import caso07antes from "../assets/imgs/caso11antes.png";
+import caso07dps from "../assets/imgs/caso11dps.png";
 import caso08antes from "../assets/imgs/caso08antes.webp";
 import caso08dps from "../assets/imgs/caso08dps.webp";
-import caso09antes from "../assets/imgs/caso09antes.webp";
-import caso09dps from "../assets/imgs/caso09dps.webp";
+
 //
 const Resultados = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -51,10 +50,7 @@ const Resultados = () => {
       antes: caso08antes,
       depois: caso08dps,
     },
-     {
-      antes: caso09antes,
-      depois: caso09dps,
-    },
+    
   ];
 
   const nextSlide = () => {
