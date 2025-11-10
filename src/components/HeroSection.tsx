@@ -108,7 +108,7 @@ const HeroSection = () => {
                 target="_blank"
               >
                 <button className="bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-rose-600 hover:to-rose-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center gap-2">
-                  Quero Minha Avaliação Gratuita!
+                  Agende uma Avaliação
                   <ArrowRight className="w-5 h-5" />
                 </button>
               </a>
